@@ -10,56 +10,41 @@ body {
     background-color: black;
 }
 
-.page {
-	height: calc(100vh - 40px);
-	background-size: cover;
-	margin: 20px;
-}
+ .p {
 
-
-
-.page p {
 	text-transform: uppercase;
+    position: relative;
+    top: -17px;
+    bottom: 0px;
+    left: 0px;
 	font-family: sans-serif;
 	font-size: 10px;
 	color: white;
     padding: 4px;
     background-color: black;
     opacity: 70%;
+    
 }
 
 
 .flexPage {
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.transformPage {
-	position: relative;
-}
-.transformPage p {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+    margin-left: 35px;
+    margin-right: -40px;	
 }
 
 
-#montagna {
-	background-image: url(./img/montagna.jpeg);
+.di {
 
+
+    
+    
 }
 
-
-footer {
-
-    width: 100%;
-	height: 70px;
-
+.montagna {
+    
+    width: 13%;
+    
 }
-
-
 
 
 .container {
